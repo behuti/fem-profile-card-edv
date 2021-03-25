@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: hsl(185, 75%, 39%);;
+}
+
+dd {
+  margin: 0;
+}
+
+.center-text {
+  display: flex;
+  justify-content: center;
+}
+
+.profiles {
+  display: flex;
+  height: 97%;
+}
+
+.profile-card {
+  width: 100%;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 30px 85px rgb(0 0 0 / 25%);
+  max-width: 350px;
+}
+
+.profile-card__header {
+  background: url('../images/bg-pattern-card.svg') no-repeat;
+  border-radius: 15px 15px 0 0;
+  padding-top: 90px;
+}
+
+.profile-card__name {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  margin: 27px 0 15px;
+}
+
+.profile-card__age {
+  font-weight: 400;
+  margin-left: 10px;
+  color: hsl(0, 0%, 59%);
+}
+
+.profile-card__city {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 28px;
+  color: hsl(0, 0%, 59%);
+}
+
+.profile-card__image {
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 0 0 5px #fff;
+  border-radius: 50%;
+}
+
+.profile-card__social-list {
+  border-top: 1px solid hsl(0, 0%, 91%);
+  padding: 30px 30px 28px;
+
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 50% 50%;
+}
+
+.profile-card__social-counter {
+  margin: 0;
+}
+
+.profile-card__social-info {
+  margin: 0;
+}
