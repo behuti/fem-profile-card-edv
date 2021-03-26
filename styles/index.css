@@ -25,7 +25,7 @@ body {
 
 .profiles {
     display: flex;
-    height: 97%;
+    height: 100%;
 }
 
 .profile-card {
