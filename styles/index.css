@@ -6,9 +6,16 @@ body {
     padding: 0;
     height: 100vh;
     background-color: hsl(185, 75%, 39%);
-    background-image: url('./../images/bg-pattern-top.svg'), url('./../images/bg-pattern-bottom.svg');
-    background-position: -280px -520px, 720px 350px;
+    background-image: url("./../images/bg-pattern-top.svg"),
+        url("./../images/bg-pattern-bottom.svg");
+    background-position: -63% 198%, 150% -140%;
     background-repeat: no-repeat, no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-position: 125% 190%, -25% -90%;
+    }
 }
 
 .center-text {
@@ -28,6 +35,12 @@ body {
     border-radius: 15px;
     box-shadow: 1px 30px 85px rgb(0 0 0 / 16%);
     max-width: 350px;
+}
+
+@media screen and (max-width: 768px) {
+    .profile-card {
+        max-width: 320px;
+    }
 }
 
 .profile-card__header {
