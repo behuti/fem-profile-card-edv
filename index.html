@@ -1,66 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
   <link rel="stylesheet" href="./styles/index.css">
 </head>
+
 <body>
   <section class="profiles">
     <article class="profile-card">
       <header class="profile-card__header">
-        <img
-          src="./images/image-victor.jpg"
-          alt="Man with a green jacket and mountains behind him"
+        <img src="./images/image-victor.jpg" alt="Man with a green jacket and mountains behind him"
           class="profile-card__image">
-          <h1 class="profile-card__name center-text">
-            Victor Crest
-            <span
-              class="profile-card__age center-text"
-              aria-label="26 years old"
-            >
-              26
-            </span>
-          </h1>
-          <span class="profile-card__city center-text">
-            London
+        <h1 class="profile-card__name center-text">
+          Victor Crest
+          <span class="profile-card__age center-text" aria-label="26 years old">
+            26
           </span>
+        </h1>
+        <span class="profile-card__city center-text">
+          London
+        </span>
       </header>
       <dl class="profile-card__social-list">
-        <dt class="profile-card__social-counter">
-          80K
-        </dt>
-        <dd class="profile-card__social-info">
-          Followers
-        </dd>
-        <dt class="profile-card__social-counter">
-          803K
-        </dt>
-        <dd class="profile-card__social-info">
-          Likes
-        </dd>
-        <dt class="profile-card__social-counter">
-          1.4K
-        </dt>
-        <dd class="profile-card__social-info">
-          Photos
-        </dd>
+        <div class="profile-card__social-detail">
+
+          <dt class="profile-card__social-counter">
+            80K
+          </dt>
+          <dd class="profile-card__social-info">
+            Followers
+          </dd>
+        </div>
+        <div class="profile-card__social-detail">
+
+          <dt class="profile-card__social-counter">
+            803K
+          </dt>
+          <dd class="profile-card__social-info">
+            Likes
+          </dd>
+        </div>
+        <div class="profile-card__social-detail">
+
+          <dt class="profile-card__social-counter">
+            1.4K
+          </dt>
+          <dd class="profile-card__social-info">
+            Photos
+          </dd>
+        </div>
       </dl>
     </article>
   </section>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/behuti">Eduardo Henao</a>.
   </div>
 </body>
+
 </html>
